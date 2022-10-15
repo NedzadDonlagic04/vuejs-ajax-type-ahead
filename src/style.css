@@ -3,6 +3,15 @@
 *::after {
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+:root {
+    --yellow-base: hsl(40, 100%, 50%);
+    --bg-dark-white: hsl(0, 50%, 95%);
+
+    --border-white: white;
+    --border-rd: 3px;
 }
 
 html {
@@ -11,4 +20,12 @@ html {
 
 body {
     min-height: 100vh;
+    background-color: var(--yellow-base);
+}
+
+#app {
+    position: fixed;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -20%);
 }
