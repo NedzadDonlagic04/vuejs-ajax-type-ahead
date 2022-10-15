@@ -1,20 +1,14 @@
 <script>
+import InputBox from './components/InputBox.vue';
+
 export default {
-    data()
-    {
-        return {
-            msg: 'Hello world!'
-        };
+    components: {
+        InputBox
     }
-}
+};
 </script>
 
 <template>
-    <p>{{msg}}</p>
+    <InputBox />
+    <div class="container"></div>
 </template>
-
-<style scoped>
-    p {
-        color: red;
-    }
-</style>
