@@ -56,7 +56,9 @@ export default {
 
 <style scoped>
     .input-box {
-        width: 22rem;
+        position: relative;
+        z-index: 2;
+        width: 23rem;
         height: 5rem;
         background-color: var(--bg-dark-white);
         border-radius: var(--border-rd);
