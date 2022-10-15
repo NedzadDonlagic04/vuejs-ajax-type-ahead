@@ -12,6 +12,9 @@
 
     --border-white: white;
     --border-rd: 3px;
+
+    --list-bg: hsl(0, 0%, 94%);
+    --list-shadow: hsla(0, 0%, 0%, .1);
 }
 
 html {
@@ -21,11 +24,10 @@ html {
 body {
     min-height: 100vh;
     background-color: var(--yellow-base);
+    display: flex;
+    justify-content: center;
 }
 
 #app {
-    position: fixed;
-    top: 20%;
-    left: 50%;
-    transform: translate(-50%, -20%);
+    margin-top: 8rem;
 }
